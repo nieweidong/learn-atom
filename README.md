@@ -12,21 +12,25 @@
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204) 知乎这篇文章能让你更好的了解Atom
 
 ### 常用快捷键
-> 和Sublime一样的快捷键俺这里就不浪费时间了哈.
+> 和Sublime一样的快捷键俺这里就不浪费时间了哈；
+> Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
+> 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 
-#### 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 - cmd-\ 显示或隐藏目录树
 - ctrl-0 焦点移到目录树
-- 选择tree后F2 修改文件/文件夹名称
-
+- fn-F2(选择tree后) 修改文件/文件夹名称
 - ctrl-shift-M Markdown预览，这非常方便俺这种写手
 - ctrl-shift-U 调出切换编码选项
+- ```cmd-t```或```cmd-p``` 查找文件
 
 ### 推荐Packages
-- [esformatter](https://atom.io/packages/esformatter) 统一代码格式
+- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [docblockr](https://atom.io/packages/docblockr) 方便写注释
-- [minimap](https://atom.io/packages/minimap) 就是Sublime右边那一竖块，显示缩小版的代码
+- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
+- [linter](https://atom.io/packages/linter) 必备；代码校验工具
+- [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
+- [merge-conflicts](https://atom.io/packages/merge-conflicts) 推荐；解决Git冲突
 
 ### 推荐Themes
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
