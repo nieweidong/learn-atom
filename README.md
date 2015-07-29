@@ -1,4 +1,4 @@
-# Atom使用纪要
+```# Atom使用纪要
 
 官网地址： [atom.io](https://atom.io)
 
@@ -16,11 +16,11 @@
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
 > 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 
-- cmd-\ 显示或隐藏目录树
-- ctrl-0 焦点移到目录树
-- fn-F2(选择tree后) 修改文件/文件夹名称
-- ctrl-shift-M Markdown预览，这非常方便俺这种写手
-- ctrl-shift-U 调出切换编码选项
+- ```cmd-\``` 显示或隐藏目录树
+- ```ctrl-0``` 焦点移到目录树
+- ```fn-F2```(选择tree后) 修改文件/文件夹名称
+- ```ctrl-shift-M``` Markdown预览，这非常方便俺这种写手
+- ```ctrl-shift-U``` 调出切换编码选项
 - ```cmd-t```或```cmd-p``` 查找文件
 
 ### 推荐Packages
@@ -36,7 +36,7 @@
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
 
 - [seti-ui](https://atom.io/themes/seti-ui) + [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
-- [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax)
+- [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax) 颜色正
 
 ### 聊聊Settings
 ```
