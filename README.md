@@ -23,10 +23,7 @@
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
 
 - [seti-ui](https://atom.io/themes/seti-ui) + [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
-<img src="https://i.github-camo.com/3e01446ebe799f5ecabfe85b0bd9f78208e65631/68747470733a2f2f6769746875622e636f6d2f6a65737365776565642f736574692d75692f7261772f6d61737465722f73637265656e73686f742e706e67" width="100%" />
-
 - [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax)
-<img src="https://i.github-camo.com/7a7ffbcfb85b59f52ac04e886ac1537ac9efdd12/687474703a2f2f692e696d6775722e636f6d2f326a4e676b52392e706e67" width="100%" />
 
 ### 聊聊Settings
 > 俺有点懒，这块需要截图说，周末有时间再补吧
