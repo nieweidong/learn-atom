@@ -12,9 +12,9 @@
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204) 知乎这篇文章能让你更好的了解Atom
 
 ### 常用快捷键
-和Sublime一样的快捷键俺这里就不浪费时间了哈.
+> 和Sublime一样的快捷键俺这里就不浪费时间了哈.
 
-> 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
+#### 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 - cmd-\ 显示或隐藏目录树
 - ctrl-0 焦点移到目录树
 - 选择tree后F2 修改文件/文件夹名称
