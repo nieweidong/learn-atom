@@ -12,6 +12,10 @@
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204)
 
 ### 常用快捷键
+> 和Sublime一样的快捷键俺这里就不浪费时间了哈
+
+- cmd-\ 显示或隐藏目录树
+- ctrl-0 焦点移到目录树
 
 ### 推荐Packages
 - [esformatter](https://atom.io/packages/esformatter) 统一代码格式
