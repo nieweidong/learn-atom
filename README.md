@@ -24,13 +24,13 @@
 - ```cmd-t```或```cmd-p``` 查找文件
 
 ### 推荐Packages
-- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
-- [docblockr](https://atom.io/packages/docblockr) 方便写注释
-- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
-- [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
+- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
+- [atom-beautify](https://atom.io/packages/atom-beautify) 推荐；美化代码格式的，快捷键```ctrl-alt-b```
+- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
-- [merge-conflicts](https://atom.io/packages/merge-conflicts) 推荐；解决Git冲突
+- [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
+- [docblockr](https://atom.io/packages/docblockr) 方便写注释
 
 ### 推荐Themes
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
@@ -40,7 +40,7 @@
 
 ### 聊聊Settings
 ```
-俺有点懒，这块需要截图细说，周末有时间再补吧
+俺有点懒，这块需要截图细说，周末有时间再补吧...
 ```
 
 ### 高级 - 扩展
