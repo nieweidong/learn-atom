@@ -4,7 +4,16 @@
 
 > 目前(2015/7/29)Atom主题已有725个；Package已有2394
 
-### 简单交代背景
+### 目录
+- [简单交代背景](#101)
+- [常用快捷键](#201)
+- [推荐Packages](#301)
+- [推荐Themes](#401)
+- [聊聊Settings](#501)
+- [高级篇 - 写个Atom Package](#601)
+- [小结](#701)
+
+<h3 href="#101">简单交代背景</h3>
   ___Atom___ 是 Github 专门为程序员推出的一个跨平台文本编辑器。
 
   2015/6/25 Atom发布1.0版本，所以趁着工作之余再次好好体验了一把Atom，确实眼前一亮，所以把使用纪要贴出来，方便后来者快速上手。
@@ -17,7 +26,7 @@
 
   Atom的简单入口就不科普了，想了解来看看这篇文章吧：[Atom基础使用](http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
 
-### 常用快捷键
+<h3 href="#201">常用快捷键</h3>
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
 
 > 和Sublime一样的快捷键俺这里就不再多浪费时间列举了哈；
@@ -42,7 +51,7 @@
 更多快捷键去Settings里面查看，如下图
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/keybindings.png)
 
-### 推荐Packages
+<h3 href="#301">推荐Packages</h3>
 > 很多时候，安装后不能及时就生效，需要重启Atom，这块比较讨厌，略搓:(
 
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
@@ -59,8 +68,7 @@
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受(如果使用着 [seti-ui](https://atom.io/themes/seti-ui) 主题，则体现不了效果哦)
 
-
-### 推荐Themes
+<h3 href="#401">推荐Themes</h3>
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
 
 > 提醒一点：Atom的主题是区分 __UI主题和语法主题__
@@ -69,7 +77,7 @@
 - [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax) 颜色正
 - [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 
-### 聊聊Settings
+<h3 href="#501">聊聊Settings</h3>
 > 在这儿聊些很有用的设置
 
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tree-view-settings.png)
@@ -81,12 +89,12 @@
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/esformatter-settings.png)
 上图红框中的选项 会再保存时让代码格式化，比如去掉不需要的空格、换行之类
 
-### 高级篇 - 写个Atom Package
+<h3 href="#601">高级篇 - 写个Atom Package</h3>
 > 原本想写个简单的Package当demo尝试下，但翻看文档发现已写的够清晰，俺也就不浪费时间费这个劲了。
 
 #### 文档地址：[Package: Word Count](https://atom.io/docs/v1.0.3/hacking-atom-package-word-count)
 
-### 小结
+<h3 href="#701">小结</h3>
 - Sublime用久了也有视觉疲劳，所以偶尔尝试下新编辑器也挺好，毕竟Atom号称“21世纪的编辑器”
 - 免费(听说是暂时的)，所以没有Sublime那恶心的弹窗，你懂的
 - 扩展能力叼爆，这就是webapp，界面啥都用CSS控制；扩展可以用JS开发，完全可以深度定制打造自己的IDE嘛...
