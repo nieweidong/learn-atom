@@ -13,6 +13,10 @@
 
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204) 知乎这篇文章能让你更好的了解Atom
 
+  [为什么选择Atom](http://atom-china.org/t/atom/59) 来看看官方怎么说吧.
+
+  Atom的简单入口就不科普了，想了解来看看这篇文章吧：[Atom基础使用](http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
+
 ### 常用快捷键
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
 
@@ -39,6 +43,8 @@
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/keybindings.png)
 
 ### 推荐Packages
+> 很多时候，安装后不能及时就生效，需要重启Atom，这块比较讨厌，略搓:(
+
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
@@ -47,8 +53,11 @@
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
 - [docblockr](https://atom.io/packages/docblockr) 方便写注释
-- [emmet](https://atom.io/packages/emmet) Sublime同款，谁用谁知道
+- [emmet](https://atom.io/packages/emmet) 必备；前端开发必备，谁用谁知道，入门地址：[Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
+- [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
+- [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
+- [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受(如果使用着 [seti-ui](https://atom.io/themes/seti-ui) 主题，则体现不了效果哦)
 
 
 ### 推荐Themes
@@ -64,13 +73,13 @@
 > 在这儿聊些很有用的设置
 
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tree-view-settings.png)
-红框中的选项可以隐藏一些需要忽略的文件
+上图红框中的选项 可以隐藏一些需要忽略的文件
 
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tabs-settings.png)
-红框中的选项可以实现Sublime选择文件的效果。不勾选时，点击一个文件就是打开文件；勾选后，双击文件才是打开文件
+上图红框中的选项 可以实现Sublime选择文件的效果。不勾选时，点击一个文件就是打开文件；勾选后，双击文件才是打开文件
 
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/esformatter-settings.png)
-红框中的选项会再保存时让代码格式化，比如去掉不需要的空格、换行之类
+上图红框中的选项 会再保存时让代码格式化，比如去掉不需要的空格、换行之类
 
 ### 高级 - 扩展
 ```
@@ -78,12 +87,14 @@
 ```
 
 ### 小结
-- Sublime用久了也有视觉疲劳，俺这种除了vim不能替换(vm上只有vim)，其他都可以尝试；
+- Sublime用久了也有视觉疲劳，所以偶尔尝试下新编辑器也挺好，毕竟Atom号称“21世纪的编辑器”
 - 免费(听说是暂时的)，所以没有Sublime那恶心的弹窗，你懂的
 - 扩展能力叼爆，这就是webapp，界面啥都用CSS控制；扩展可以用JS开发，完全可以深度定制打造自己的IDE嘛...
 - 邀请测试的那版确实比较慢，启动慢、打开文件慢等等，但是目前确实没有这种感觉，一切都很流畅(非正常情况俺也没试)
 - Github发布的编辑器，那么对Git的友好支持不用多说了
+- 同样其问题也有不少，比如用着用着Tree的颜色就变了，然后重新就好使了；比如安装个新包还需要重启编辑器等等...这都是比较糟糕的体验，在这里期望Atom能越做越好吧...
+- Atom有中文社区-[AtomChina](http://atom-china.org/)
 
 ---
 
-更多内容会陆续更新补上，欢迎pull request.
+如发现有趣的内容也会陆续更新补上，更欢迎伙伴们pull request，git地址：[learn-atom](https://github.com/nieweidong/learn-atom)
