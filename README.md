@@ -1,4 +1,4 @@
-```# Atom使用纪要
+# Atom使用纪要
 
 官网地址： [atom.io](https://atom.io)
 
@@ -13,7 +13,9 @@
 
 ### 常用快捷键
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
+
 > 和Sublime一样的快捷键俺这里就不再多浪费时间列举了哈；
+
 > 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 
 - ```cmd-\``` 显示或隐藏目录树
@@ -44,6 +46,7 @@
 
 ### 推荐Themes
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
+
 > 提醒一点：Atom的主题是区分 __UI主题和语法主题__
 
 - [seti-ui](https://atom.io/themes/seti-ui) + [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
