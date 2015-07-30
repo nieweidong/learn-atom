@@ -44,9 +44,11 @@
 
 ### 推荐Themes
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
+> 提醒一点：Atom的主题是区分 __UI主题和语法主题__
 
 - [seti-ui](https://atom.io/themes/seti-ui) + [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
 - [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax) 颜色正
+- [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 
 ### 聊聊Settings
 ```
