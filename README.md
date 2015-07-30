@@ -81,10 +81,10 @@
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/esformatter-settings.png)
 上图红框中的选项 会再保存时让代码格式化，比如去掉不需要的空格、换行之类
 
-### 高级 - 扩展
-```
-待完善
-```
+### 高级篇 - 写个Atom Package
+> 原本想写个简单的Package当demo尝试下，但翻看文档发现已写的够清晰，俺也就不浪费时间费这个劲了。
+
+#### 文档地址：[Package: Word Count](https://atom.io/docs/v1.0.3/hacking-atom-package-word-count)
 
 ### 小结
 - Sublime用久了也有视觉疲劳，所以偶尔尝试下新编辑器也挺好，毕竟Atom号称“21世纪的编辑器”
@@ -93,7 +93,8 @@
 - 邀请测试的那版确实比较慢，启动慢、打开文件慢等等，但是目前确实没有这种感觉，一切都很流畅(非正常情况俺也没试)
 - Github发布的编辑器，那么对Git的友好支持不用多说了
 - 同样其问题也有不少，比如用着用着Tree的颜色就变了，然后重新就好使了；比如安装个新包还需要重启编辑器等等...这都是比较糟糕的体验，在这里期望Atom能越做越好吧...
-- Atom有中文社区-[AtomChina](http://atom-china.org/)
+- Atom有中文社区：[AtomChina](http://atom-china.org/)
+- 双手附上官网文档地址，请多关注：[Atom Documentation](https://atom.io/docs/v1.0.3/getting-started-why-atom)
 
 ---
 
