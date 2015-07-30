@@ -1,15 +1,15 @@
 # Atom使用纪要
 
-官网地址： [atom.io](https://atom.io)
+#### 官网地址： [atom.io](https://atom.io)
 
 > 目前(2015/7/29)Atom主题已有725个；Package已有2394
 
 ### 简单交代背景
-  Atom 是 Github 专门为程序员推出的一个跨平台文本编辑器。
+  ___Atom___ 是 Github 专门为程序员推出的一个跨平台文本编辑器。
 
   2015/6/25 Atom发布1.0版本，所以趁着工作之余再次好好体验了一把Atom，确实眼前一亮，所以把使用纪要贴出来，方便后来者快速上手。
 
-> ___PS：劳资是mac，所以windows用户请原谅，照顾不周哈。___
+> ___PS：劳资是mac，所以windows用户请原谅，照顾不周哈:)___
 
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204) 知乎这篇文章能让你更好的了解Atom
 
@@ -35,6 +35,9 @@
 - ```ctrl-m``` 相应括号之间，html tag之间等跳转
 - ```alt-shift-S``` 查看当前可用代码片段
 
+更多快捷键去Settings里面查看，如下图
+![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/keybindings.png)
+
 ### 推荐Packages
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
@@ -58,9 +61,16 @@
 - [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 
 ### 聊聊Settings
-```
-俺有点懒，这块需要截图细说，周末有时间再补吧...
-```
+> 在这儿聊些很有用的设置
+
+![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tree-view-settings.png)
+红框中的选项可以隐藏一些需要忽略的文件
+
+![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tabs-settings.png)
+红框中的选项可以实现Sublime选择文件的效果。不勾选时，点击一个文件就是打开文件；勾选后，双击文件才是打开文件
+
+![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/esformatter-settings.png)
+红框中的选项会再保存时让代码格式化，比如去掉不需要的空格、换行之类
 
 ### 高级 - 扩展
 ```
@@ -76,4 +86,4 @@
 
 ---
 
-更多内容会在近期补上，欢迎pull request.
+更多内容会陆续更新补上，欢迎pull request.
