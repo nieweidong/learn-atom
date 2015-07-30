@@ -12,8 +12,8 @@
   [如何评价 Github 发布的文本编辑器 Atom？](http://www.zhihu.com/question/22867204) 知乎这篇文章能让你更好的了解Atom
 
 ### 常用快捷键
-> 和Sublime一样的快捷键俺这里就不浪费时间了哈；
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
+> 和Sublime一样的快捷键俺这里就不再多浪费时间列举了哈；
 > 在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的
 
 - ```cmd-\``` 显示或隐藏目录树
@@ -22,15 +22,25 @@
 - ```ctrl-shift-M``` Markdown预览，这非常方便俺这种写手
 - ```ctrl-shift-U``` 调出切换编码选项
 - ```cmd-t```或```cmd-p``` 查找文件
+- ```alt-cmd-[``` 折叠
+- ```alt-cmd-]``` 展开
+- ```alt-cmd-shift-{``` 折叠全部
+- ```alt-cmd-shift-}``` 展开全部
+- ```ctrl-m``` 相应括号之间，html tag之间等跳转
+- ```alt-shift-S``` 查看当前可用代码片段
 
 ### 推荐Packages
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [atom-beautify](https://atom.io/packages/atom-beautify) 推荐；美化代码格式的，快捷键```ctrl-alt-b```
 - [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
+- [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
 - [docblockr](https://atom.io/packages/docblockr) 方便写注释
+- [emmet](https://atom.io/packages/emmet) Sublime同款，谁用谁知道
+- [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
+
 
 ### 推荐Themes
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
