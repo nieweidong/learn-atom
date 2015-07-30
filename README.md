@@ -24,7 +24,7 @@
 
   [为什么选择Atom](http://atom-china.org/t/atom/59) 来看看官方怎么说吧.
 
-  Atom的简单入口就不科普了，想了解来看看这篇文章吧：[Atom基础使用](http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
+  Atom的简单入门就不科普了，想了解来看看这篇文章吧：[Atom基础使用](http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
 
 <h3 id="201">常用快捷键</h3>
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
