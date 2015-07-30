@@ -24,6 +24,8 @@
 - ```ctrl-0``` 焦点移到目录树
 - ```fn-F2```(选择tree后) 修改文件/文件夹名称
 - ```ctrl-shift-M``` Markdown预览，这非常方便俺这种写手
+- ```ctrl-alt-b``` 安装[atom-beautify](https://atom.io/packages/atom-beautify)后可使用，格式化代码
+- ```ctrl-` ``` 安装[terminal-panel](https://atom.io/packages/terminal-panel)后可使用，调起CLI
 - ```ctrl-shift-U``` 调出切换编码选项
 - ```cmd-t```或```cmd-p``` 查找文件
 - ```alt-cmd-[``` 折叠
@@ -36,7 +38,7 @@
 ### 推荐Packages
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
-- [atom-beautify](https://atom.io/packages/atom-beautify) 推荐；美化代码格式的，快捷键```ctrl-alt-b```
+- [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
 - [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
