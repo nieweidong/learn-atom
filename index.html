@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Learn-atom by nieweidong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Learn-atom</h1>
+      <h2 class="project-tagline">长期更新，最佳的Atom入门使用记录，上手就是如此简单</h2>
+      <a href="https://github.com/nieweidong/learn-atom" class="btn">View on GitHub</a>
+      <a href="https://github.com/nieweidong/learn-atom/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nieweidong/learn-atom/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="atom使用纪要" class="anchor" href="#atom%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81" aria-hidden="true"><span class="octicon octicon-link"></span></a>Atom使用纪要</h1>
+
+<h4>
+<a id="官网地址-atomio" class="anchor" href="#%E5%AE%98%E7%BD%91%E5%9C%B0%E5%9D%80-atomio" aria-hidden="true"><span class="octicon octicon-link"></span></a>官网地址： <a href="https://atom.io">atom.io</a>
+</h4>
+
+<blockquote>
+<p>目前(2015/7/29)Atom主题已有725个；Package已有2394</p>
+</blockquote>
+
+<h2>
+<a id="目录" class="anchor" href="#%E7%9B%AE%E5%BD%95" aria-hidden="true"><span class="octicon octicon-link"></span></a>目录</h2>
+
+<ul>
+<li><a href="#101">简单交代背景</a></li>
+<li><a href="#201">常用快捷键</a></li>
+<li><a href="#301">推荐Packages</a></li>
+<li><a href="#401">推荐Themes</a></li>
+<li><a href="#501">聊聊Settings</a></li>
+<li><a href="#601">高级篇 - 写个Atom Package</a></li>
+<li><a href="#701">小结</a></li>
+</ul>
+
+<h3 id="101">
+<a id="简单交代背景" class="anchor" href="#%E7%AE%80%E5%8D%95%E4%BA%A4%E4%BB%A3%E8%83%8C%E6%99%AF" aria-hidden="true"><span class="octicon octicon-link"></span></a>简单交代背景</h3>
+
+<p><strong><em>Atom</em></strong> 是 Github 专门为程序员推出的一个跨平台文本编辑器。</p>
+
+<p>2015/6/25 Atom发布1.0版本，所以趁着工作之余再次好好体验了一把Atom，确实眼前一亮，所以把使用纪要贴出来，方便后来者快速上手。</p>
+
+<blockquote>
+<p><strong><em>PS：劳资是mac，所以windows用户请原谅，照顾不周哈:)</em></strong></p>
+</blockquote>
+
+<p><a href="http://www.zhihu.com/question/22867204">如何评价 Github 发布的文本编辑器 Atom？</a> 知乎这篇文章能让你更好的了解Atom</p>
+
+<p><a href="http://atom-china.org/t/atom/59">为什么选择Atom</a> 来看看官方怎么说吧.</p>
+
+<p>Atom的简单入门就不科普了，想了解来看看这篇文章吧：<a href="http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62">Atom基础使用</a></p>
+
+<h3 id="201">
+<a id="常用快捷键" class="anchor" href="#%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE" aria-hidden="true"><span class="octicon octicon-link"></span></a>常用快捷键</h3>
+
+<blockquote>
+<p>Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;</p>
+
+<p>和Sublime一样的快捷键俺这里就不再多浪费时间列举了哈；</p>
+
+<p>在tree-view的Keybindings里面有非常详细的说明，都是针对Tree操作的</p>
+</blockquote>
+
+<ul>
+<li>
+<code>cmd-\</code> 显示或隐藏目录树</li>
+<li>
+<code>ctrl-0</code> 焦点移到目录树</li>
+<li>
+<code>fn-F2</code>(选择tree后) 修改文件/文件夹名称</li>
+<li>
+<code>ctrl-shift-M</code> Markdown预览，这非常方便俺这种写手</li>
+<li>
+<code>ctrl-alt-b</code> 安装<a href="https://atom.io/packages/atom-beautify">atom-beautify</a>后可使用，格式化代码</li>
+<li>
+<code>ctrl-`</code> 安装<a href="https://atom.io/packages/terminal-panel">terminal-panel</a>后可使用，调起CLI</li>
+<li>
+<code>ctrl-shift-U</code> 调出切换编码选项</li>
+<li>
+<code>cmd-t</code>或<code>cmd-p</code> 查找文件</li>
+<li>
+<code>alt-cmd-[</code> 折叠</li>
+<li>
+<code>alt-cmd-]</code> 展开</li>
+<li>
+<code>alt-cmd-shift-{</code> 折叠全部</li>
+<li>
+<code>alt-cmd-shift-}</code> 展开全部</li>
+<li>
+<code>ctrl-m</code> 相应括号之间，html tag之间等跳转</li>
+<li>
+<code>alt-shift-S</code> 查看当前可用代码片段</li>
+</ul>
+
+<p>更多快捷键去Settings里面查看，如下图
+<img src="https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/keybindings.png" alt=""></p>
+
+<h3 id="301">
+<a id="推荐packages" class="anchor" href="#%E6%8E%A8%E8%8D%90packages" aria-hidden="true"><span class="octicon octicon-link"></span></a>推荐Packages</h3>
+
+<blockquote>
+<p>很多时候，安装后不能及时就生效，需要重启Atom，这块比较讨厌，略搓:(</p>
+</blockquote>
+
+<ul>
+<li>
+<a href="https://atom.io/packages/linter">linter</a> 必备；代码校验工具</li>
+<li>
+<a href="https://atom.io/packages/esformatter">esformatter</a> 必备；统一代码格式</li>
+<li>
+<a href="https://atom.io/packages/atom-beautify">atom-beautify</a> 必备；格式化代码的，快捷键<code>ctrl-alt-b</code>
+</li>
+<li>
+<a href="https://atom.io/packages/minimap">minimap</a> 推荐；就是Sublime右边那一竖块，显示缩小版的代码</li>
+<li>
+<a href="https://atom.io/packages/color-picker">color-picker</a> 推荐；写CSS时非常方便的调色板</li>
+<li>
+<a href="https://atom.io/packages/autocomplete-paths">autocomplete-paths</a> 填写路径的时候有Sug提示</li>
+<li>
+<a href="https://atom.io/packages/vim-mode">vim-mode</a> 劳资就是喜欢zuo，所以在Atom上用vim写码:)</li>
+<li>
+<a href="https://atom.io/packages/docblockr">docblockr</a> 方便写注释</li>
+<li>
+<a href="https://atom.io/packages/emmet">emmet</a> 必备；前端开发必备，谁用谁知道，入门地址：<a href="http://www.w3cplus.com/tools/emmet-cheat-sheet.html">Emmet使用手册</a>
+</li>
+<li>
+<a href="https://atom.io/packages/terminal-panel">terminal-panel</a> 不是那么好用的CLI，勉强能凑活</li>
+<li>
+<a href="https://atom.io/packages/git-plus">git-plus</a> Git插件；得先配置邮箱和用户名</li>
+<li>
+<a href="https://atom.io/packages/javascript-snippets">javascript-snippets</a> 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)</li>
+<li>
+<a href="https://atom.io/packages/file-icons">file-icons</a> 推荐：让文件前面有彩色图片，看着非常享受(如果使用着 <a href="https://atom.io/themes/seti-ui">seti-ui</a> 主题，则体现不了效果哦)</li>
+</ul>
+
+<h3 id="401">
+<a id="推荐themes" class="anchor" href="#%E6%8E%A8%E8%8D%90themes" aria-hidden="true"><span class="octicon octicon-link"></span></a>推荐Themes</h3>
+
+<blockquote>
+<p>其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...</p>
+
+<p>提醒一点：Atom的主题是区分 <strong>UI主题和语法主题</strong></p>
+</blockquote>
+
+<ul>
+<li>
+<a href="https://atom.io/themes/seti-ui">seti-ui</a> + <a href="https://atom.io/themes/seti-syntax">seti-syntax</a> 每个文件前的icons是最大亮点</li>
+<li>
+<a href="https://atom.io/themes/atom-material-ui">atom-material-ui</a> + <a href="https://atom.io/themes/atom-material-syntax">atom-material-syntax</a> 颜色正</li>
+<li>
+<a href="https://atom.io/themes/monokai">monokai</a> 偶尔想用回Sublime的时候可以用:)</li>
+</ul>
+
+<h3 id="501">
+<a id="聊聊settings" class="anchor" href="#%E8%81%8A%E8%81%8Asettings" aria-hidden="true"><span class="octicon octicon-link"></span></a>聊聊Settings</h3>
+
+<blockquote>
+<p>在这儿聊些很有用的设置</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tree-view-settings.png" alt="">
+上图红框中的选项 可以隐藏一些需要忽略的文件</p>
+
+<p><img src="https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tabs-settings.png" alt="">
+上图红框中的选项 可以实现Sublime选择文件的效果。不勾选时，点击一个文件就是打开文件；勾选后，双击文件才是打开文件</p>
+
+<p><img src="https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/esformatter-settings.png" alt="">
+上图红框中的选项 会再保存时让代码格式化，比如去掉不需要的空格、换行之类</p>
+
+<h3 id="601">
+<a id="高级篇---写个atom-package" class="anchor" href="#%E9%AB%98%E7%BA%A7%E7%AF%87---%E5%86%99%E4%B8%AAatom-package" aria-hidden="true"><span class="octicon octicon-link"></span></a>高级篇 - 写个Atom Package</h3>
+
+<blockquote>
+<p>原本想写个简单的Package当demo尝试下，但翻看文档发现已写的够清晰，俺也就不浪费时间费这个劲了。</p>
+</blockquote>
+
+<h4>
+<a id="文档地址package-word-count" class="anchor" href="#%E6%96%87%E6%A1%A3%E5%9C%B0%E5%9D%80package-word-count" aria-hidden="true"><span class="octicon octicon-link"></span></a>文档地址：<a href="https://atom.io/docs/v1.0.3/hacking-atom-package-word-count">Package: Word Count</a>
+</h4>
+
+<h3 id="701">
+<a id="小结" class="anchor" href="#%E5%B0%8F%E7%BB%93" aria-hidden="true"><span class="octicon octicon-link"></span></a>小结</h3>
+
+<ul>
+<li>Sublime用久了也有视觉疲劳，所以偶尔尝试下新编辑器也挺好，毕竟Atom号称“21世纪的编辑器”</li>
+<li>免费(听说是暂时的)，所以没有Sublime那恶心的弹窗，你懂的</li>
+<li>扩展能力叼爆，这就是webapp，界面啥都用CSS控制；扩展可以用JS开发，完全可以深度定制打造自己的IDE嘛...</li>
+<li>邀请测试的那版确实比较慢，启动慢、打开文件慢等等，但是目前确实没有这种感觉，一切都很流畅(非正常情况俺也没试)</li>
+<li>Github发布的编辑器，那么对Git的友好支持不用多说了</li>
+<li>同样其问题也有不少，比如用着用着Tree的颜色就变了，然后重新启动就好使了；比如安装个新包还需要重启编辑器等等...这都是比较糟糕的体验，在这里期望Atom能越做越好吧...</li>
+<li>Atom有中文社区：<a href="http://atom-china.org/">AtomChina</a>
+</li>
+<li>双手附上官网文档地址，请多关注：<a href="https://atom.io/docs/v1.0.3/getting-started-why-atom">Atom Documentation</a>
+</li>
+</ul>
+
+<hr>
+
+<p>如发现有趣的内容也会陆续更新补上，更欢迎伙伴们pull request，git地址：<a href="https://github.com/nieweidong/learn-atom">learn-atom</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nieweidong/learn-atom">Learn-atom</a> is maintained by <a href="https://github.com/nieweidong">nieweidong</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
