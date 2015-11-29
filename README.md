@@ -57,6 +57,7 @@
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
+- [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞，稍稍卡，可以忍受
 - [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
