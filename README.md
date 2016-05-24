@@ -57,7 +57,7 @@
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
 - [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
-- [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞，稍稍卡，可以忍受
+- [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞。PS：最新的版本(0.5.2)有升级性能，卡顿效果小很多了
 - [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
@@ -67,14 +67,14 @@
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
-- [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受(如果使用着 [seti-ui](https://atom.io/themes/seti-ui) 主题，则体现不了效果哦)
+- [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 
 <h3 id="401">推荐Themes</h3>
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
 
 > 提醒一点：Atom的主题是区分 __UI主题和语法主题__
 
-- [seti-ui](https://atom.io/themes/seti-ui) + [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
+- [seti-syntax](https://atom.io/themes/seti-syntax) 每个文件前的icons是最大亮点
 - [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax) 颜色正
 - [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 - [Dracula](https://draculatheme.com/atom/) 这个主题不光有 ```Atom```版本的，还有 ```Sublime, Vim, iTerm, Zsh```等等编辑器都存在
