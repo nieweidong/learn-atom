@@ -15,6 +15,7 @@
 - [FAQ](#801)
 
 <h3 id="101">简单交代背景</h3>
+
   ___Atom___ 是 Github 专门为程序员推出的一个跨平台文本编辑器。
 
   2015/6/25 Atom发布1.0版本，所以趁着工作之余再次好好体验了一把Atom，确实眼前一亮，所以把使用纪要贴出来，方便后来者快速上手。
@@ -27,7 +28,9 @@
 
   Atom的简单入门就不科普了，想了解来看看这篇文章吧：[Atom基础使用](http://atom-china.org/t/guan-fang-shou-ce-atom-ji-chu-shi-yong/62)
 
+
 <h3 id="201">常用快捷键</h3>
+
 > Sublime常用的功能Atom应该都有，比如俺最喜欢的多光标选中和多处选取;
 
 > 和Sublime一样的快捷键俺这里就不再多浪费时间列举了哈；
@@ -52,26 +55,29 @@
 更多快捷键去Settings里面查看，如下图
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/keybindings.png)
 
+
 <h3 id="301">推荐Packages</h3>
+
 > 很多时候，安装后不能及时就生效，需要重启Atom，这块比较讨厌，略搓:(
 
-- [linter](https://atom.io/packages/linter) 必备；代码校验工具
-- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
-- [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
 - [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞。PS：最新的版本(0.5.2)有升级性能，卡顿效果小很多了
-- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
-- [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
+- [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
-- [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
-- [docblockr](https://atom.io/packages/docblockr) 方便写注释
+- [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
+- [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言。
 - [emmet](https://atom.io/packages/emmet) 必备；前端开发必备，谁用谁知道，入门地址：[Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
-- [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
+- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
+- [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
-- [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言。
-- [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
+- [linter](https://atom.io/packages/linter) 必备；代码校验工具
+- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
+- [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
+- [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
+
 
 <h3 id="401">推荐Themes</h3>
+
 > 其实Atom默认的主题就已经非常小清新、文艺范儿，但前端对美好事务的追求是永不停歇的...
 
 > 提醒一点：Atom的主题是区分 __UI主题和语法主题__
@@ -81,7 +87,9 @@
 - [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 - [Dracula](https://draculatheme.com/atom/) 这个主题不光有 ```Atom```版本的，还有 ```Sublime, Vim, iTerm, Zsh```等等编辑器都存在
 
+
 <h3 id="501">聊聊Settings</h3>
+
 > 在这儿聊些很有用的设置
 
 ![](https://raw.githubusercontent.com/nieweidong/learn-atom/master/img/tree-view-settings.png)
@@ -98,7 +106,9 @@
 
 #### 文档地址：[Package: Word Count](https://atom.io/docs/v1.0.3/hacking-atom-package-word-count)
 
+
 <h3 id="701">小结</h3>
+
 - Sublime用久了也有视觉疲劳，所以偶尔尝试下新编辑器也挺好，毕竟Atom号称“21世纪的编辑器”
 - 免费(听说是暂时的)，所以没有Sublime那恶心的弹窗，你懂的
 - 扩展能力叼爆，这就是webapp，界面啥都用CSS控制；扩展可以用JS开发，完全可以深度定制打造自己的IDE嘛...
@@ -108,10 +118,12 @@
 - Atom有中文社区：[AtomChina](http://atom-china.org/)
 - 双手附上官网文档地址，请多关注：[Atom Documentation](https://atom.io/docs/v1.0.3/getting-started-why-atom)
 
+
 <h3 id="801">FAQ</h3>
 
 - [markdown-preview](https://atom.io/packages/markdown-preview) 的快捷键为 ```ctrl-shift-m```，如果不好使那么需要配置一下 ```keymap.cson```，配好之后快捷键就可以正常使用啦，详情: [Keyboard Shortcut overriding](https://discuss.atom.io/t/keyboard-shortcut-overriding-emmet-and-markdown-preview/14113/8)
 - 某些插件安装了为什么没有及时生效？答：重启大法
+
 
 ---
 
