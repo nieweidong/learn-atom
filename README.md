@@ -12,6 +12,7 @@
 - [聊聊Settings](#501)
 - [高级篇 - 写个Atom Package](#601)
 - [小结](#701)
+- [FAQ](#801)
 
 <h3 id="101">简单交代背景</h3>
   ___Atom___ 是 Github 专门为程序员推出的一个跨平台文本编辑器。
@@ -67,6 +68,7 @@
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
+- [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言。
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 
 <h3 id="401">推荐Themes</h3>
@@ -105,6 +107,11 @@
 - 同样其问题也有不少，比如用着用着Tree的颜色就变了，然后重新启动就好使了；比如安装个新包还需要重启编辑器等等...这都是比较糟糕的体验，在这里期望Atom能越做越好吧...
 - Atom有中文社区：[AtomChina](http://atom-china.org/)
 - 双手附上官网文档地址，请多关注：[Atom Documentation](https://atom.io/docs/v1.0.3/getting-started-why-atom)
+
+<h3 id="801">FAQ</h3>
+
+- [markdown-preview](https://atom.io/packages/markdown-preview) 的快捷键为 ```ctrl-shift-m```，如果不好使那么需要配置一下 ```keymap.cson```，配好之后快捷键就可以正常使用啦，详情: [Keyboard Shortcut overriding](https://discuss.atom.io/t/keyboard-shortcut-overriding-emmet-and-markdown-preview/14113/8)
+- 某些插件安装了为什么没有及时生效？答：重启大法
 
 ---
 
