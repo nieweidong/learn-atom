@@ -71,7 +71,8 @@
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
 - [linter](https://atom.io/packages/linter) 必备；代码校验工具
-- [minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
+- [Minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
+- [Expose](https://atom.io/packages/expose) 俺的开发习惯：开很多窗口；分多屏。那么问题来了：不能很好的切换对应的 ```tab```，这个插件就是解决 ```Tabs``` 切换的问题，依赖[Minimap](https://atom.io/packages/minimap)和[file-icons](https://atom.io/packages/file-icons)。PS：偶在使用中也遇见过小问题，但 [Issues](https://github.com/mrodalgaard/atom-expose/issues?q=is%3Aissue+is%3Aclosed) 里都解决了，有问题去上面找答案吧:)
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
 
