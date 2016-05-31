@@ -122,8 +122,10 @@
 
 <h3 id="801">FAQ</h3>
 
+- 觉得卡？建议升级最新的 ```Atom```。如果还没有好转，建议查询下主题和包是否过旧或者有影响。如果各种尝试之后还是无解，那么还是用回 ```Sublime``` 吧...
 - [markdown-preview](https://atom.io/packages/markdown-preview) 的快捷键为 ```ctrl-shift-m```，如果不好使那么需要配置一下 ```keymap.cson```，配好之后快捷键就可以正常使用啦，详情: [Keyboard Shortcut overriding](https://discuss.atom.io/t/keyboard-shortcut-overriding-emmet-and-markdown-preview/14113/8)
 - 某些插件安装了为什么没有及时生效？答：重启大法
+- 写 ```.md``` 文件的时候会莫名的卡，文件其实没有多大，原因未知
 
 
 ---
