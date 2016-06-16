@@ -8,6 +8,7 @@
 - [简单交代背景](#101)
 - [常用快捷键](#201)
 - [推荐Packages](#301)
+- [需慎重使用的Packages](#302)
 - [推荐Themes](#401)
 - [聊聊Settings](#501)
 - [高级篇 - 写个Atom Package](#601)
@@ -19,6 +20,8 @@
   ___Atom___ 是 Github 专门为程序员推出的一个跨平台文本编辑器。
 
   2015/6/25 Atom发布1.0版本，所以趁着工作之余再次好好体验了一把Atom，确实眼前一亮，所以把使用纪要贴出来，方便后来者快速上手。
+
+  至今，我和我所在的团队都在使用Atom撸码，一切都很美好，但是如果哪天我们因为XXX忍不鸟Atom了，我也会及时告知大家的。
 
 > ___PS：劳资是mac，所以windows用户请原谅，照顾不周哈:)___
 
@@ -61,20 +64,27 @@
 > 很多时候，安装后不能及时就生效，需要重启Atom，这块比较讨厌，略搓:(
 
 - [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞。PS：最新的版本(0.5.2)有升级性能，卡顿效果小很多了
-- [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
+- [linter](https://atom.io/packages/linter)+[linter-eslint](https://atom.io/packages/linter-eslint) 必备；代码校验工具
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
 - [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
 - [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言。
 - [emmet](https://atom.io/packages/emmet) 必备；前端开发必备，谁用谁知道，入门地址：[Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
-- [esformatter](https://atom.io/packages/esformatter) 必备；统一代码格式
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
-- [linter](https://atom.io/packages/linter) 必备；代码校验工具
+- [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
+- [esformatter](https://atom.io/packages/esformatter) 统一代码格式用的
 - [Minimap](https://atom.io/packages/minimap) 推荐；就是Sublime右边那一竖块，显示缩小版的代码
 - [Expose](https://atom.io/packages/expose) 俺的开发习惯：开很多窗口；分多屏。那么问题来了：不能很好的切换对应的 ```tab```，这个插件就是解决 ```Tabs``` 切换的问题，依赖[Minimap](https://atom.io/packages/minimap)和[file-icons](https://atom.io/packages/file-icons)。PS：偶在使用中也遇见过小问题，但 [Issues](https://github.com/mrodalgaard/atom-expose/issues?q=is%3Aissue+is%3Aclosed) 里都解决了，有问题去上面找答案吧:)
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
+
+
+<h3 id="302">需慎重使用的Packages</h3>
+
+- [esformatter](https://atom.io/packages/esformatter) 统一代码格式用的。但是，偶尔脑残，经常报些奇葩的错误，不知道最新版有木有改善，但是我们有了更好的格式化代码的办法，使用 [linter](https://atom.io/packages/linter) + [linter-eslint](https://atom.io/packages/linter-eslint)
+- [atom-beautify](https://atom.io/packages/atom-beautify) 说说我遇到的情况，如果设置了保存时格式化，当文件比较大的时候，会有很明显的卡顿，所以我这已经不使用这个插件了
+- [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼效果不用多说，但是无论如何优化，基于Browser搞动画所依赖的方面太多了，所以偶尔脑残和卡顿你得习惯:)
 
 
 <h3 id="401">推荐Themes</h3>
