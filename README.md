@@ -97,6 +97,7 @@
 - [atom-material-ui](https://atom.io/themes/atom-material-ui) + [atom-material-syntax](https://atom.io/themes/atom-material-syntax) 颜色正
 - [monokai](https://atom.io/themes/monokai) 偶尔想用回Sublime的时候可以用:)
 - [Dracula](https://draculatheme.com/atom/) 这个主题不光有 ```Atom```版本的，还有 ```Sublime, Vim, iTerm, Zsh```等等编辑器都存在
+- [Lucario](https://github.com/raphamorim/lucario) 暗色系主题，支持 Vim, Atom, Sublime Text, TextMate, Terminal.app, iTerm, Xcode and XTerm
 
 
 <h3 id="501">聊聊Settings</h3>
