@@ -66,8 +66,9 @@
 - [activate-power-mode](https://atom.io/packages/activate-power-mode) 装逼必备，效果相当赞。PS：最新的版本(0.5.2)有升级性能，卡顿效果小很多了
 - [linter](https://atom.io/packages/linter)+[linter-eslint](https://atom.io/packages/linter-eslint) 必备；代码校验工具
 - [autocomplete-paths](https://atom.io/packages/autocomplete-paths) 填写路径的时候有Sug提示
+- [pigments](https://atom.io/packages/pigments) 让颜色相关的字符，在任何文件下都可以展示对应的高亮，强烈推荐
 - [color-picker](https://atom.io/packages/color-picker) 推荐；写CSS时非常方便的调色板
-- [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言。
+- [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言
 - [emmet](https://atom.io/packages/emmet) 必备；前端开发必备，谁用谁知道，入门地址：[Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
