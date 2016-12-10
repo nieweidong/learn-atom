@@ -71,6 +71,7 @@
 - [docblockr](https://atom.io/packages/docblockr) 注释也优雅，一款用于写注释的插件。支持常见的各种语言
 - [emmet](https://atom.io/packages/emmet) 必备；前端开发必备，谁用谁知道，入门地址：[Emmet使用手册](http://www.w3cplus.com/tools/emmet-cheat-sheet.html)
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
+- [csscomb](https://atom.io/packages/atom-csscomb) 推荐前端使用。可以帮你把CSS按照一定的顺序重排，看起来会更友好。
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
 - [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
