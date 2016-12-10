@@ -73,6 +73,7 @@
 - [file-icons](https://atom.io/packages/file-icons) 推荐：让文件前面有彩色图片，看着非常享受
 - [csscomb](https://atom.io/packages/atom-csscomb) 推荐前端使用。可以把CSS按照一定的顺序重排，看起来会更友好。
 - [git-plus](https://atom.io/packages/git-plus) Git插件；得先配置邮箱和用户名
+- [git-time-machine](https://atom.io/packages/git-time-machine) Git党必备；可以查看当前编辑文件的 ci history，diff 版本间改动；快捷键 ```alt-t```
 - [javascript-snippets](https://atom.io/packages/javascript-snippets) 推荐；各种缩写，值得拥有；当然，俺用的最多的是cl命令:)
 - [atom-beautify](https://atom.io/packages/atom-beautify) 必备；格式化代码的，快捷键```ctrl-alt-b```
 - [esformatter](https://atom.io/packages/esformatter) 统一代码格式用的
@@ -80,7 +81,6 @@
 - [Expose](https://atom.io/packages/expose) 俺的开发习惯：开很多窗口；分多屏。那么问题来了：不能很好的切换对应的 ```tab```，这个插件就是解决 ```Tabs``` 切换的问题，依赖[Minimap](https://atom.io/packages/minimap)和[file-icons](https://atom.io/packages/file-icons)。PS：偶在使用中也遇见过小问题，但 [Issues](https://github.com/mrodalgaard/atom-expose/issues?q=is%3Aissue+is%3Aclosed) 里都解决了，有问题去上面找答案吧:)
 - [terminal-panel](https://atom.io/packages/terminal-panel) 不是那么好用的CLI，勉强能凑活
 - [vim-mode](https://atom.io/packages/vim-mode) 劳资就是喜欢zuo，所以在Atom上用vim写码:)
-
 
 <h3 id="302">需慎重使用的Packages</h3>
 
